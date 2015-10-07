@@ -37,7 +37,14 @@ The data will be made public at time of paper publication.</p>
 <p>You find here the ground truth dataset for the query-specific relation extraction as described in the paper</p>
 
 <ul>
-<li><a href="data/sentences.tsv">Extraction correctness</a></li>
+<li><a href="data/sentences.tsv">Extraction correctness</a> with the columns:<br>
+<ul>
+  <li>sentence_id - sentence identifier containing the query number (201), the clueweb document id, the subject entitiy, the object entity, the document token offsets for the subject and the object, the relation predciate</li>
+<li>text - the sentence text</li>
+<li>extraction_correctness_annotation - human ground truth if extraction is correct (1) or not (0)</li>
+<li>fact_id - the fact identifier of the corresponding fact relation (also contained in the sentence_id)</li>
+</ul>
+</li>
 <li><a href="data/facts.tsv">Fact relevance</a></li>
 </ul>
         </section>
