@@ -1,4 +1,4 @@
-qid	fact	fact_relevance	sum_pos_sentence_extraction_annotation	dbp_relation	subj_rel	obj_rel							
+qid	fact	fact_relevance	sum_pos_sentence_extraction_annotation	dbp_relation	subj_rel	obj_rel
 201	201:Reuters:org:country_of_headquarters:United_Kingdom	0	1	dbpediaowl:location 	0	1
 201	201:Apple_Inc.:org:founded_by:Steve_Wozniak	0	3	dbpediaowl:foundedBy 	0	null
 201	201:Eben_Upton:per:origin:Cambridge,_New_Hampshire	0	2	null	1	1
